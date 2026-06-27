@@ -1,3 +1,6 @@
+import Header from "./components/Header";
+
+
 const posts = [
   {
     title: '22/5/26',
@@ -12,19 +15,13 @@ const posts = [
 export default function App() {
   return (
     <div className="app-shell">
+      <Header />
       <header>
-        <h1>My Personal Blog</h1>
-        <p>Thoughts, notes, and stories as they grow.</p>
+        <h1>El jardín digital del Vadiño</h1>
+        <p>Pensamientos y cosas a medida que se me vayan ocurriendo</p>
       </header>
 
       <main>
-        <section className="intro">
-          <h2>Welcome</h2>
-          <p>
-            This blog has been transformed into a small React app while keeping the same calm,
-            welcoming feel.
-          </p>
-        </section>
 
         <section className="posts">
           <h2>Recent Posts</h2>
@@ -37,9 +34,6 @@ export default function App() {
         </section>
       </main>
 
-      <footer>
-        <p>Built with React and Vite.</p>
-      </footer>
     </div>
   )
 }
