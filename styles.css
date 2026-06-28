@@ -14,13 +14,13 @@
 body {
   margin: 0;
   padding: 0;
- background: linear-gradient(to bottom, #142930, #244f55);
- height: 100vh;
+  background: linear-gradient(to bottom, #142930, #244f55);
+  min-height: 100vh;
 }
 
 header {
   padding: 1rem;
-  background-color: #282c34;
+  background-color: #101010ef;
   color: #fff;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.315);
 
@@ -31,9 +31,27 @@ header {
   cursor:default;
 }
 
+.contact {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
 .postsgrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1.5rem;
   padding: 2rem;
   max-width: 1400px;
@@ -59,4 +77,38 @@ header {
 
 .post:hover {
     transform: translateY(-4px);
+}
+
+
+
+
+.button-87 {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
 }
