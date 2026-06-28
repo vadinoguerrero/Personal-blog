@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Routes, Route, Link } from "react-router-dom";
 import Posts from './components/Posts';
-import MainSection from './components/MainSection';
 
 
 export default function App() {
-
-  const [activeTab, setActiveTab] = useState('about');
 
   return (
     <div className="app-shell">
@@ -24,21 +22,32 @@ export default function App() {
         <p>Pensamientos y cosas a medida que se me vayan ocurriendo</p>
       </div>
 
-      <div className="button-group">
-        <button onClick={() => setActiveTab('about')} className={'button-87'}>
-          Que es esta página?
-        </button>
-        <button onClick={() => setActiveTab('textos')} className={'button-87'}>
-          Textos
-        </button>
-        <button onClick={() => setActiveTab('proyectos')} className={'button-87'}>
-          Proyectos
-        </button>
-      </div>
+<div className="button-group">
+<Link className="button-87" to="/about">
+     Que es esta página?
+</Link>
 
-      <MainSection activeTab={ activeTab } />
+<Link className="button-87" to="/texts">
+     Textos
+</Link>
 
-        
-    </div>
-  )
+<Link className="button-87" to="/projects">
+     Proyectos
+</Link>
+</div>
+
+      <Routes>
+              <Route path="/about" element={
+                  <div className="about">
+                    <h2>Que es esta página?</h2>
+                  </div>} />
+              <Route path="/texts" element={
+                <Posts />} />
+              <Route path="/projects" element={
+                <div className="proyectos">
+          <h2>Proyectos</h2>
+        </div>} />
+      </Routes>
+            </div>
+  );
 }
