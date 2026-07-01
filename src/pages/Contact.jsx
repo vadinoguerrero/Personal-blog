@@ -6,7 +6,7 @@ export default function Contact() {
       <Header />
       <h1>Contacto</h1>
 
-      <main>
+      <div className="form-container">
         <form>
           <div>
             <label htmlFor="name">Nombre:</label>
@@ -22,7 +22,7 @@ export default function Contact() {
           </div>
           <button type="submit">Enviar</button>
         </form>
-      </main>
+      </div>
     </div>
   );
 }

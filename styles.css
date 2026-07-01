@@ -144,3 +144,15 @@ a:visited {
   border-radius: 1rem;
   padding: 2rem;
 }
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.postview h1 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}

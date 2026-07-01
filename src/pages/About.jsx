@@ -1,10 +1,15 @@
 import Header from '../components/Header';
-
-export default function About() {
+import ReactMarkdown from 'react-markdown';
+import about from '../data/about.md?raw';
+export default function PostView() {
   return (
-    <div className="about">
+    <>
       <Header />
-      <h2>Que es esta página?</h2>
-    </div>
+      <div className="postview-container">
+        <div className="postview">
+          <ReactMarkdown>{about}</ReactMarkdown>
+        </div>
+      </div>
+    </>
   );
 }
