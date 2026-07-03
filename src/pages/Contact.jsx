@@ -1,4 +1,5 @@
 import Header from '../components/Header';
+import createMarkdownPost from '../lib/createMarkdown';
 
 export default function Contact() {
   return (

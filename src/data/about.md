@@ -18,4 +18,4 @@ En el año 2008 él estaba enfermo en el hospital, yo estaba viviendo con mis t�
 
 Un dia cuando lo fui a visitar, en privado me dio tres monedas de 10 pesos y me dijo que me compre una libretita, y que en esa libretita escriba todas las cosas que se me vayan ocurriendo.
 
-Está pagina es también para honrar al tata, porque sé que le asombraría y estaría orgulloso de esto, de que escriba, de que yo haya creado la página web de cero, y del hombre que soy hoy en día.
+Esta pagina es también para honrar al tata, porque sé que le asombraría y estaría orgulloso de esto, de que escriba, de que yo haya creado la página web de cero, y del hombre que soy hoy en día.
