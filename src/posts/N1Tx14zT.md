@@ -1,6 +1,6 @@
 ---
 id: N1Tx14zT
-date: 9/9/18
+date: '2018-09-09'
 ---
 
 ## Meanings

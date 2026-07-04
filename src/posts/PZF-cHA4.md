@@ -1,6 +1,6 @@
 ---
 id: PZF-cHA4
-date: 22/5/26
+date: '2026-05-22'
 ---
 
 I don't have to pretend I'm someone I'm not to fit in, make friends or advance with girls, I have to be myself enough to attract the right people who will appreciate it.

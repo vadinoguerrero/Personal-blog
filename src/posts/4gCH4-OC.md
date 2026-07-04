@@ -1,6 +1,6 @@
 ---
 id: 4gCH4-OC
-date: 21/11/18
+date: '2017-11-21'
 ---
 
 Cuando estas explotando de vida te sale mezclarte con lo exterior, te sale estar inmerso, te sale dar y apreciar, con solo recibir el ver a los otros vivir es suficiente, y eso dice algo, dice que el alma siempre expandiente no es sólo para sí misma, sino que conforma y se conforma de los demás.

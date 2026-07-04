@@ -1,6 +1,6 @@
 ---
 id: o_vP_SOU
-date: 26/3/23
+date: '2023-03-26'
 ---
 
 Es como que vivo para coleccionar maneras lindas de sentirme en diferentes situaciones, que después pueda acordarme de manera nostálgica.

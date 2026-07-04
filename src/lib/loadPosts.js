@@ -6,23 +6,22 @@ export default async function loadPosts(id) {
     import: 'default',
   });
 
-  const posts = [];
-  for (const loader of Object.values(files)) {
-    const markdown = await loader();
+  const posts = await Promise.all(
+    Object.values(files).map(async (loader) => {
+      const markdown = await loader();
 
-    const parsed = fm(markdown);
+      const parsed = fm(markdown);
 
-    if (id) {
-      if (parsed.attributes.id === id) {
-        return parsed;
-      }
-    }
+      return {
+        id: parsed.attributes.id,
+        date: parsed.attributes.date,
+        content: parsed.body,
+      };
+    }),
+  );
 
-    posts.push({
-      id: parsed.attributes.id,
-      date: parsed.attributes.date,
-      content: parsed.body,
-    });
+  if (id) {
+    return posts.find((post) => post.id === id);
   }
 
   return posts;

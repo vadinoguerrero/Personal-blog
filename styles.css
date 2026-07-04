@@ -14,7 +14,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #142930, #244f55);
+  background: linear-gradient(to bottom, #17323a, #244f55);
   min-height: 100vh;
 }
 
@@ -36,17 +36,18 @@ a:visited {
   text-align: center;
   color: rgb(240, 240, 240);
   cursor: default;
+  padding: 2rem;
+  margin-bottom: 4rem;
 }
 
 .button-group {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3.5rem;
   justify-content: center;
   max-width: 600px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
-  padding: 3rem;
 }
 
 .button-87 {
@@ -155,4 +156,58 @@ a:visited {
   font-size: 1.6rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.contact {
+  width: min(90%, 700px);
+  margin: 4rem auto;
+}
+
+.contact h1 {
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+
+  padding: 0.8rem 1rem;
+
+  font: inherit;
+
+  border-radius: 12px;
+
+  border: 1px solid #444;
+
+  background: transparent;
+
+  color: inherit;
+
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+
+  min-height: 180px;
+}
+
+.contact-form button {
+  align-self: flex-start;
+
+  padding: 0.8rem 1.5rem;
+
+  cursor: pointer;
 }

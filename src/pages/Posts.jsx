@@ -9,7 +9,10 @@ const Posts = () => {
   useEffect(() => {
     async function getPosts() {
       const loadedPosts = await loadPosts();
-      setPosts(loadedPosts);
+      const sortedPosts = loadedPosts.sort(
+        (a, b) => new Date(b.date) - new Date(a.date),
+      );
+      setPosts(sortedPosts);
     }
 
     getPosts();
@@ -18,11 +21,24 @@ const Posts = () => {
   return (
     <div className="posts">
       <Header />
+      <div className="banner">
+        <h1>Notas y pensamientos</h1>
+        <p>
+          Momentos de claridad donde lo que pienso amerita ser escrito para
+          poder recordarlo
+        </p>
+      </div>
       <div className="postsgrid">
         {posts.map((post) => (
           <Link to={`/posts/${post.id}`} key={post.id}>
             <div className="post">
-              <h3>{post.date}</h3>
+              <h3>
+                {new Date(post.date).toLocaleDateString('en-GB', {
+                  day: 'numeric',
+                  month: 'numeric',
+                  year: '2-digit',
+                })}
+              </h3>
               <ReactMarkdown>{post.content}</ReactMarkdown>
             </div>
           </Link>

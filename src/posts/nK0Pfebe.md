@@ -1,6 +1,6 @@
 ---
 id: nK0Pfebe
-date: 15/7/18
+date: '2018-07-15'
 ---
 
 Love as the biggest (probably unique) sign of virtue"

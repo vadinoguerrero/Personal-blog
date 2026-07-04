@@ -1,6 +1,6 @@
 ---
 id: lj4lSp6c
-date: 25/11/25
+date: '2025-11-25'
 ---
 
 ChatGPT sobre mi aparente inabilidad a expresar rabia o enojo:

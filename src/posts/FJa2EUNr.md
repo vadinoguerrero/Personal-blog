@@ -1,6 +1,6 @@
 ---
 id: FJa2EUNr
-date: 8/11/25
+date: '2025-11-08'
 ---
 
 Me di cuenta de que hay circunstancias externas, situaciones, que me hacen ser más o menos yo mismo, también situaciones que me bajan o me suben el autoestima.

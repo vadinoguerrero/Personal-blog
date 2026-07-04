@@ -1,6 +1,6 @@
 ---
 id: yioeAS0c
-date: 19/12/25
+date: '2025-12-19'
 ---
 
 Estoy cansado de que todo lo que hago y digo pasa como por 10 filtros antes, de si estoy siendo patético, si estoy diciendo algo incorrecto, si doy la imagen que no quiero, etc.

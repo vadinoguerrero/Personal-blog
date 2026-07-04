@@ -1,6 +1,6 @@
 ---
 id: LUjVpaRh
-date: 15/9/25
+date: '2025-09-15'
 ---
 
 Estaba pensando en qué haria si me enterara que tengo cancer y que me queda poco tiempo de vida.

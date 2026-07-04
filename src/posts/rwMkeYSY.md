@@ -1,6 +1,6 @@
 ---
 id: rwMkeYSY
-date: 21/3/23
+date: '2023-03-21'
 ---
 
 Debería abrirme más, expresar más mis sentimientos, mis problemas, las cosas que me molestan, y no embotellar y guardar todo como hago siempre.

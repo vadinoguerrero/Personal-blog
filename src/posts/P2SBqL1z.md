@@ -1,6 +1,6 @@
 ---
 id: P2SBqL1z
-date: 8/2/18
+date: '2018-02-08'
 ---
 
 Mis ojos ven los momentos intentando hacerlos más significativos, se basa en el meaning que esté hospedando en mi alma, para plasmarlo sobre la realidad misma

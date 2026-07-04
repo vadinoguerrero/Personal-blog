@@ -4,7 +4,10 @@ export default function Projects() {
   return (
     <div className="projects">
       <Header />
-      <h2>Proyectos</h2>
+      <div className="banner">
+        <h1>Proyectos de programación</h1>
+        <p>Páginas web que he hecho en mi proceso de auto-aprendizaje</p>
+      </div>
     </div>
   );
 }

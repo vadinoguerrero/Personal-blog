@@ -27,8 +27,14 @@ export default function PostView() {
 
       <div className="postview-container">
         <div className="postview">
-          <h3>{post.attributes.date}</h3>
-          <ReactMarkdown>{post.body}</ReactMarkdown>
+          <h3>
+            {new Date(post.date).toLocaleDateString('en-GB', {
+              day: 'numeric',
+              month: 'numeric',
+              year: '2-digit',
+            })}
+          </h3>
+          <ReactMarkdown>{post.content}</ReactMarkdown>
         </div>
       </div>
     </>
