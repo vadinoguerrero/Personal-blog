@@ -14,7 +14,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #17323a, #244f55);
+  background: linear-gradient(to bottom, #1d3d47, #26555c);
   min-height: 100vh;
 }
 
@@ -210,4 +210,11 @@ a:visited {
   padding: 0.8rem 1.5rem;
 
   cursor: pointer;
+}
+
+.share {
+  cursor: pointer;
+  color: #fff;
+  align-self: flex-end;
+  float: right;
 }

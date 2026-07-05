@@ -48,20 +48,20 @@ export default function Contact() {
           <form ref={form} onSubmit={sendEmail} className="contact-form">
             <label htmlFor="name">
               Nombre:
-              <input type="text" name="name" />
+              <input type="text" required name="name" />
             </label>
 
             <label htmlFor="email">
-              Mail
-              <input type="email" id="email" name="email" />
+              E-Mail:
+              <input type="email" id="email" name="email" required />
             </label>
 
             <label htmlFor="message">
               Mensaje:
-              <textarea id="message" name="message"></textarea>
+              <textarea id="message" name="message" required></textarea>
             </label>
 
-            <button disabled={status === 'sending'}>
+            <button className="button-87" disabled={status === 'sending'}>
               {status === 'sending' ? 'Enviando...' : 'Enviar'}
             </button>
           </form>
