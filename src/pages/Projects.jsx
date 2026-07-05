@@ -6,7 +6,10 @@ export default function Projects() {
       <Header />
       <div className="banner">
         <h1>Proyectos de programación</h1>
-        <p>Páginas web que he hecho en mi proceso de auto-aprendizaje</p>
+        <p>
+          Sitios web con los que he practicado en mi proceso de auto-aprendizaje
+          a lo largo de los años
+        </p>
       </div>
     </div>
   );

@@ -40,19 +40,20 @@ export default function PostView() {
       alert('Link copied to clipboard!');
     }
   }
+
+  function formatDate(dateString) {
+    const [year, month, day] = dateString.split('-');
+
+    return `${Number(day)}/${Number(month)}/${year.slice(2)}`;
+  }
+
   return (
     <>
       <Header />
 
       <div className="postview-container">
         <div className="postview">
-          <h3>
-            {new Date(post.date).toLocaleDateString('en-GB', {
-              day: 'numeric',
-              month: 'numeric',
-              year: '2-digit',
-            })}
-          </h3>
+          <h3>{formatDate(post.date)}</h3>
           <ReactMarkdown>{post.content}</ReactMarkdown>
           <span className="share material-symbols-outlined" onClick={sharePost}>
             share
