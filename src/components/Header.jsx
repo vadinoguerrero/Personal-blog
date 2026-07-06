@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-
+import logo from '../logo.png';
 export default function Header() {
   return (
     <header>
@@ -14,7 +14,7 @@ export default function Header() {
       >
         <Link className="logo" to="/">
           <img
-            src="../favicon.png"
+            src={logo}
             alt="Logo"
             style={{ width: '50px', height: '50px' }}
           />
