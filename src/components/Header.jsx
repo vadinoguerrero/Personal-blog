@@ -12,7 +12,12 @@ export default function Header() {
           justifyContent: 'space-between',
         }}
       >
-        <Link to="/">
+        <Link className="logo" to="/">
+          <img
+            src="../favicon.png"
+            alt="Logo"
+            style={{ width: '50px', height: '50px' }}
+          />
           <h1 style={{ margin: 0, fontSize: '1.5rem', cursor: 'pointer' }}>
             Vadiño
           </h1>

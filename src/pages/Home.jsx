@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
 
       <div className="banner">
-        <h1>El jardín digital del Vadiño</h1>
+        <h1>El rincón del Vadiño</h1>
         <p>Un lugar donde guardar y mostrar todo lo que se me ocurra</p>
       </div>
 

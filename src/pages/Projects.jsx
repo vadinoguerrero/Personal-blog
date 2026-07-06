@@ -11,6 +11,12 @@ export default function Projects() {
           a lo largo de los años
         </p>
       </div>
+      <div className="projects-container">
+        <div className="manteinance postview">
+          <h2>En mantenimiento</h2>
+          <p>Ya los voy a agregar un dia de estos</p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -26,6 +26,13 @@ header {
   margin-bottom: 4rem;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: inherit;
+  text-decoration: none;
+}
 a,
 a:visited {
   color: #fff;
@@ -217,4 +224,17 @@ a:visited {
   color: #fff;
   align-self: flex-end;
   float: right;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem;
+}
+.manteinance {
+  text-align: center;
+  color: rgb(240, 240, 240);
+  cursor: default;
+  padding: 2rem;
+  margin-bottom: 4rem;
 }
