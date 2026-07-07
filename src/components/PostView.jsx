@@ -42,9 +42,12 @@ export default function PostView() {
   }
 
   function formatDate(dateString) {
-    const [year, month, day] = dateString.split('-');
-
-    return `${Number(day)}/${Number(month)}/${year.slice(2)}`;
+    return new Intl.DateTimeFormat('es-UY', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+      timeZone: 'UTC',
+    }).format(new Date(dateString));
   }
 
   return (

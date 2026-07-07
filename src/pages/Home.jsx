@@ -13,7 +13,10 @@ export default function Home() {
 
       <div className="banner">
         <h1>El rincón del Vadiño</h1>
-        <p>Un lugar donde guardar y mostrar todo lo que se me ocurra</p>
+        <p>
+          Un lugar donde comparto ideas, proyectos y cosas que me llaman la
+          atención
+        </p>
       </div>
 
       <div className="button-group">
@@ -21,7 +24,7 @@ export default function Home() {
           Generar ID
         </button> */}
         <Link className="button-87" to="/about">
-          Que poronga es esta página?
+          Que es esta página?
         </Link>
 
         <Link className="button-87" to="/posts">

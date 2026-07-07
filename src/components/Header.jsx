@@ -25,7 +25,7 @@ export default function Header() {
 
         <Link to="/contact">
           <nav>
-            <span className="material-symbols-outlined">mail</span>
+            <span className="mail material-symbols-outlined">mail</span>
           </nav>
         </Link>
       </div>
