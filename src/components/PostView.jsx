@@ -3,10 +3,13 @@ import Header from '../components/Header';
 import ReactMarkdown from 'react-markdown';
 import loadPosts from '../lib/loadPosts.js';
 import { useParams } from 'react-router-dom';
+import Toast from '../components/Toast.jsx';
+import useToast from '../components/useToast.jsx';
 
 export default function PostView() {
   const { id } = useParams();
   const [post, setPost] = useState(null);
+  const { toast, showToast } = useToast();
 
   useEffect(() => {
     async function fetchPost() {
@@ -23,21 +26,18 @@ export default function PostView() {
 
   async function sharePost() {
     const url = window.location.href;
-    console.log(navigator.share);
     if (navigator.share) {
       try {
         await navigator.share({
           url,
         });
-        console.log('Post shared successfully!');
       } catch (err) {
         // User cancelled
         console.error(err);
       }
     } else {
       await navigator.clipboard.writeText(url);
-      console.log('Link copied to clipboard!');
-      alert('Link copied to clipboard!');
+      showToast('Link copiado!');
     }
   }
 
@@ -63,6 +63,7 @@ export default function PostView() {
           </span>
         </div>
       </div>
+      {toast && <Toast message={toast} />}
     </>
   );
 }

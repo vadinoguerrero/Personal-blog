@@ -5,6 +5,7 @@ import About from './pages/About';
 import Posts from './pages/Posts';
 import PostView from './components/PostView';
 import Projects from './pages/Projects';
+import NotFound from './pages/NotFound';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Route path="/posts" element={<Posts />} />
       <Route path="/posts/:id" element={<PostView />} />
       <Route path="/projects" element={<Projects />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }

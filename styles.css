@@ -257,3 +257,68 @@ a:visited {
   padding: 2rem;
   margin-bottom: 4rem;
 }
+
+.toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 12px 20px;
+
+  background: #2b313b;
+  color: white;
+
+  border-radius: 12px;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+
+  z-index: 9999;
+
+  animation: toast-in 0.2s ease;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.search-bar {
+  position: relative;
+  width: min(600px, 90%);
+  margin: 2rem auto;
+}
+
+.search-bar input {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 0.9rem 1rem 0.9rem 3rem;
+
+  background: #282c34;
+  color: white;
+
+  border: none;
+  border-radius: 14px;
+
+  font: inherit;
+}
+
+.search-icon {
+  position: absolute;
+
+  left: 1rem;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  color: #9ca3af;
+  pointer-events: none;
+}
