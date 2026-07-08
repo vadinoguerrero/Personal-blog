@@ -5,6 +5,7 @@ import loadPosts from '../lib/loadPosts.js';
 import { useParams } from 'react-router-dom';
 import Toast from '../components/Toast.jsx';
 import useToast from '../components/useToast.jsx';
+import NotFound from '../pages/NotFound.jsx';
 
 export default function PostView() {
   const { id } = useParams();
@@ -21,7 +22,7 @@ export default function PostView() {
   }, [id]);
 
   if (!post) {
-    return <h2>Post not found.</h2>;
+    return <NotFound />;
   }
 
   async function sharePost() {
