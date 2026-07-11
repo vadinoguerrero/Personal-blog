@@ -40,7 +40,7 @@ export default function Contact() {
         <h1>Contactame</h1>
         <p>
           Si algo de lo que escribo resuena contigo, o queres hablar de lo que
-          sea, mandame un mensaje y te voy a contestar
+          sea, mandame un correo y te voy a contestar
         </p>
       </div>
       <div className="contact">

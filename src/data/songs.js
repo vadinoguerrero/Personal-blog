@@ -6,7 +6,7 @@ const songs = [
     cover: '/covers/fast-car.webp',
     spotify: 'https://open.spotify.com/embed/track/2M9ro2krNb7nr7HSprkEgo',
     lyrics: [
-      `Remember when we were driving, driving in your car, speed so fast it felt like I was drunk, city lights lay out before us and your arm felt nice wrapped 'round my shoulder, and I-I had a feeling that I belonged, I-I had a feeling I could be someone, be someone`,
+      `Remember when we were driving in your car, speed so fast felt like I was drunk, city lights lay out before us and your arm felt nice wrapped 'round my shoulder, and I had a feeling that I belonged, I had a feeling I could be someone`,
     ],
   },
 
@@ -105,7 +105,7 @@ This is our call, we rise and we fall, dancing in the moonlight, don't we have i
     spotify: 'https://open.spotify.com/embed/track/3cUxncrTWSA9lhlQbuIwUY',
     lyrics: [
       `I'm not the kind of fool who's gonna sit and sing to you about stars, girl. But last night I looked up into the dark half of the blue and they'd gone backwards`,
-      `I have been searching from the bottom to the top for such a sight, as the one I caught when I saw your fingers dimming the lights, like you're used to being told that you're trouble.`,
+      `I have been searching from the bottom to the top for such a sight, as the one I caught when I saw your fingers dimming the lights, like you're used to being told that you're trouble`,
       `And I spent all night, stuck on the puzzle`,
     ],
   },
@@ -172,7 +172,7 @@ This is our call, we rise and we fall, dancing in the moonlight, don't we have i
     cover: '/covers/through-the-dark.webp',
     spotify: 'https://open.spotify.com/embed/track/1a0PcmEJAOEp4ZT3YtSLkM',
     lyrics: [
-      `I will carry you over fire and water for your love, and I will hold you closer hope your heart is strong enough.`,
+      `I will carry you over fire and water for your love, and I will hold you closer hope your heart is strong enough`,
       `When the night is coming down on ya, we will find a way through the dark`,
     ],
   },
@@ -183,8 +183,8 @@ This is our call, we rise and we fall, dancing in the moonlight, don't we have i
     cover: '/covers/when-we-were-young.webp',
     spotify: 'https://open.spotify.com/embed/track/7IWkJwX9C0J7tHurTD7ViL',
     lyrics: [
-      `Let me photograph you in this light in case it is the last time, that we might be exactly like we were before we realised, we were sad of getting old, it made us restless.`,
-      `It was just like a movie, it was just like a song, my god you remind me of when we were young.`,
+      `Let me photograph you in this light in case it is the last time, that we might be exactly like we were before we realised, we were sad of getting old, it made us restless`,
+      `It was just like a movie, it was just like a song, my god you remind me of when we were young`,
     ],
   },
   {
@@ -220,6 +220,84 @@ This is our call, we rise and we fall, dancing in the moonlight, don't we have i
       `Sheets of empty canvas, untouched sheets of clay, were laid spread out before me, as her body once did`,
       `All five horizons, revolved around her soul, as the earth to the sun, now the air I tasted and breathed has taken a turn`,
       `I know someday you'll have a beautiful life, I know you'll be a star in somebody else's sky, but why? why can't it be mine?`,
+    ],
+  },
+  {
+    id: 'budapest',
+    title: 'Budapest',
+    artist: 'George Ezra',
+    cover: '/covers/budapest.webp',
+    spotify: 'https://open.spotify.com/embed/track/2ixsaeFioXJmMgkkbd4uj1',
+    lyrics: [
+      `Give me one good reason why I should never make a change, and baby if you hold me then all of this will go away`,
+    ],
+  },
+  {
+    id: 'careless-whisper',
+    title: 'Careless Whisper',
+    artist: 'George Michael',
+    cover: '/covers/careless-whisper.webp',
+    spotify: 'https://open.spotify.com/embed/track/5WDLRQ3VCdVrKw0njWe5E5',
+    lyrics: [
+      `To the heart and mind ignorance is kind, there's no comfort in the truth, pain is all you'll find`,
+    ],
+  },
+  {
+    id: 'say-you-wont-let-go',
+    title: "Say You Won't Let Go",
+    artist: 'James Arthur',
+    cover: '/covers/say-you-wont-let-go.webp',
+    spotify: 'https://open.spotify.com/embed/track/5uCax9HTNlzGybIStD3vDh',
+    lyrics: [
+      `I knew I loved you then, but you'd never know, 'cause I played it cool when I was scared of letting go`,
+      `I'm so in love with you, and I hope you know, darling your love is more than worth its weight in gold`,
+      `I wanna live with you, even when we're ghosts, 'cause you were always there for me when I needed you most`,
+    ],
+  },
+  {
+    id: 'vielleicht-vielleicht',
+    title: 'Vielleicht Vielleicht',
+    artist: 'AnnenMayKantereit',
+    cover: '/covers/vielleicht-vielleicht.webp',
+    spotify: 'https://open.spotify.com/embed/track/17lu3VOOdnuf6fvtj6TDL5',
+    lyrics: [
+      `Es ist so schön dir zuzusehen, wenn du duschen gehst und dann vor mir stehst`,
+      `Du gibst mir Zeit, und dann denk' ich dass es vielleicht, vielleicht, für immer so bleibt`,
+    ],
+  },
+  {
+    id: 'hey-soul-sister',
+    title: 'Hey Soul Sister',
+    artist: 'Train',
+    cover: '/covers/hey-soul-sister.webp',
+    spotify: 'https://open.spotify.com/embed/track/4HlFJV71xXKIGcU3kRyttv',
+    lyrics: [
+      `I knew when we collided, you're the one I had decided who's one of my kind`,
+      ` I can be myself now finally, in fact, there's nothing I can't be. I want the world to see you'll be with me`,
+    ],
+  },
+  {
+    id: 'patience',
+    title: 'Patience',
+    artist: 'Chris Cornell',
+    cover: '/covers/patience.webp',
+    spotify: 'https://open.spotify.com/embed/track/7n3u7RrzdXGVcclBEp9aSa',
+    lyrics: [
+      `Shed a tear 'cause I'm missin' you, I'm still alright to smile, girl I think about you every day now`,
+      `Was a time when I wasn't sure, but you set my mind at ease, there is no doubt you're in my heart now`,
+    ],
+  },
+  {
+    id: 'iris',
+    title: 'Iris',
+    artist: 'Goo Goo Dolls',
+    cover: '/covers/iris.webp',
+    spotify: 'https://open.spotify.com/embed/track/6Qyc6fS4DsZjB2mRW9DsQs',
+    lyrics: [
+      `I'd give up forever to touch you, 'cause I know that you feel me somehow, you're the closest to heaven that I'll ever be, and I don't wanna go home right now`,
+      `All I can taste is this moment, and all I can breathe is your life, 'cause sooner or later it's over, I just don't wanna miss you tonight`,
+      `I don't want the world to see me, 'cause I don't think that they'd understand, when everything's made to be broken, I just want you to know who I am`,
+      `When everything feels like the movies, yeah, you bleed just to know you're alive`,
     ],
   },
 ];

@@ -1,19 +1,24 @@
-import Header from '../components/Header';
+import { useMemo } from 'react';
+import Header from '../components/Header.jsx';
 import songs from '../data/songs.js';
 
-export default function Lyrics() {
+export default function Songs() {
+  const shuffledSongs = useMemo(() => {
+    return [...songs].sort(() => Math.random() - 0.5);
+  }, []);
+
   return (
     <div className="projects">
       <Header />
       <div className="banner">
         <h1>Canciones y letras</h1>
         <p>
-          Canciones que siento en el pecho y cuyas letras me hacen sentir
+          Canciones que siento en el pecho cuyas letras me hacen sentir
           identificado.
         </p>
       </div>
       <div className="song-container">
-        {songs.map((song) => (
+        {shuffledSongs.map((song) => (
           <div className="song-card" key={song.id}>
             <div className="song-header">
               <img className="album-cover" src={song.cover} alt={song.title} />
