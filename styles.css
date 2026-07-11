@@ -322,3 +322,99 @@ a:visited {
   color: #9ca3af;
   pointer-events: none;
 }
+
+.song-container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.song-card {
+  background: #282c34;
+
+  border-radius: 18px;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.song-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.album-cover {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 14px;
+
+  object-fit: cover;
+
+  flex-shrink: 0;
+}
+
+.song-details {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.song-details h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.song-details h3 {
+  margin-top: 0.5rem;
+
+  font-weight: 400;
+  color: #cfcfcf;
+}
+
+.song-card blockquote {
+  color: #cfcfcf;
+  margin: 0;
+
+  padding-left: 1.25rem;
+
+  border-left: 4px solid #2c514f;
+
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.song-card p {
+  margin: 0;
+
+  line-height: 1.8;
+}
+
+.song-card iframe {
+  width: 100%;
+
+  border: none;
+  border-radius: 12px;
+}
+
+@media (max-width: 650px) {
+  .song-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .song-details {
+    align-items: center;
+  }
+}

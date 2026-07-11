@@ -5,6 +5,12 @@ export default function PostView() {
   return (
     <>
       <Header />
+      <div
+        className="banner"
+        style={{ paddingBottom: '1rem', marginBottom: '1rem' }}
+      >
+        <h1>Para que es esta página?</h1>
+      </div>
       <div className="postview-container">
         <div className="postview">
           <ReactMarkdown>{about}</ReactMarkdown>

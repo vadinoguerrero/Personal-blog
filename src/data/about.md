@@ -1,5 +1,3 @@
-# Para qué es esta página?
-
 Esta página surge como un espacio para poner todas mis ideas, mis textos y mis cosas, envés de ponerlas en Instagram donde me siento que estoy forzando a gente (en su mayoría desconocida) a ver algo que seguramente no les interesa, en esta página puedo hacer pública esa parte de mi y que solo algún curioso entre de vez en cuando.
 
 ## Sacarme la máscara

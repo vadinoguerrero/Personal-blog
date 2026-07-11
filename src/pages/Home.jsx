@@ -14,8 +14,8 @@ export default function Home() {
       <div className="banner">
         <h1>El rincón de Vadiño</h1>
         <p>
-          Un lugar donde comparto ideas, proyectos y cosas que me llaman la
-          atención
+          Un lugar donde comparto ideas, proyectos y cosas que tienen
+          significado para mi.
         </p>
       </div>
 
@@ -29,6 +29,10 @@ export default function Home() {
 
         <Link className="button-87" to="/posts">
           Notas y pensamientos
+        </Link>
+
+        <Link className="button-87" to="/songs">
+          Canciones y letras
         </Link>
 
         <Link className="button-87" to="/projects">

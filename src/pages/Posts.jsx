@@ -45,7 +45,7 @@ const Posts = () => {
         </p>
       </div>
       <div className="search-bar">
-        <span class="search-icon material-symbols-outlined">search</span>
+        <span className="search-icon material-symbols-outlined">search</span>
         <input
           type="text"
           placeholder="Buscar.."
