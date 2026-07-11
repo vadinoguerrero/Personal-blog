@@ -14,7 +14,7 @@ export default function Home() {
       <div className="banner">
         <h1>El rincón de Vadiño</h1>
         <p>
-          Un lugar donde comparto ideas, proyectos y cosas que tienen
+          Un lugar donde comparto ideas, pensamientos y cosas que guardan
           significado para mi.
         </p>
       </div>
