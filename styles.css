@@ -18,7 +18,7 @@ body {
   padding: 0;
   background:
     radial-gradient(circle at top, rgba(255, 255, 255, 0.03), transparent 60%),
-    linear-gradient(to bottom, #263942, #29464d, #2c514f);
+    linear-gradient(to bottom, #263942, #2b4a52, #2c5755);
   background-attachment: fixed;
   min-height: 100vh;
 }

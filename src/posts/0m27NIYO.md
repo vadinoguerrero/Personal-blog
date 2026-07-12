@@ -15,7 +15,7 @@ Es una sensación que se siente god-sent, como unas palmaditas en la espalda de 
 
 Te hace dejar de creer en el free will y empezas a creer que cada paso anterior estaba destinado, que todo pasa por algo.
 
-Es profunda admiración de las cosas mínimas como risas, palabras, dichos o comentarios y la ilusión de que esas pequeñas cosas encajarían muy bien en tu cotidianeidad.
+Es profunda admiración de las cosas mínimas como risas, palabras, dichos o comentarios y la ilusión de que esas pequeñas cosas encajarían muy bien y alegrarían tu cotidianeidad.
 
 Es sentirse impactado por ver en esa persona cualidades que uno valora mucho en sí mismo y en los demás.
 

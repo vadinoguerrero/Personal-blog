@@ -300,6 +300,17 @@ This is our call, we rise and we fall, dancing in the moonlight, don't we have i
       `When everything feels like the movies, yeah, you bleed just to know you're alive`,
     ],
   },
+  {
+    id: 'chasing-cars',
+    title: 'Chasing Cars',
+    artist: 'Snow Patrol',
+    cover: '/covers/chasing-cars.webp',
+    spotify: 'https://open.spotify.com/embed/track/5hnyJvgoWiQUYZttV4wXy6',
+    lyrics: [
+      `Forget what we're told before we get too old, show me a garden that's burstin' into life`,
+      `I need your grace to remind me, to find my own`,
+    ],
+  },
 ];
 
 export default songs;
