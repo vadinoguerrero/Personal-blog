@@ -55,7 +55,7 @@ a:visited {
 .button-group {
   display: flex;
   flex-direction: column;
-  gap: 3.5rem;
+  gap: 2rem;
   justify-content: center;
   max-width: 600px;
   width: 90%;

@@ -11,7 +11,7 @@ export default function Home() {
     <div className="app-shell">
       <Header />
 
-      <div className="banner">
+      <div className="banner" style={{ margin: 0 }}>
         <h1>El rincón de Vadiño</h1>
         <p>
           Un lugar donde comparto textos, pensamientos y cosas que guardan
@@ -31,13 +31,14 @@ export default function Home() {
           Notas y pensamientos
         </Link>
 
+        <Link className="button-87" to="/photos">
+          Galería
+        </Link>
+
         <Link className="button-87" to="/songs">
           Canciones y letras
         </Link>
 
-        <Link className="button-87" to="/photos">
-          Galería
-        </Link>
         {/* <Link className="button-87" to="/projects">
           Proyectos de programación
         </Link> */}
