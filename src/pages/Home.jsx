@@ -35,6 +35,9 @@ export default function Home() {
           Canciones y letras
         </Link>
 
+        <Link className="button-87" to="/photos">
+          Galería
+        </Link>
         {/* <Link className="button-87" to="/projects">
           Proyectos de programación
         </Link> */}

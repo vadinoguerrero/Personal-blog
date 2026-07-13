@@ -173,7 +173,7 @@ This is our call, we rise and we fall, dancing in the moonlight, don't we have i
     spotify: 'https://open.spotify.com/embed/track/1a0PcmEJAOEp4ZT3YtSLkM',
     lyrics: [
       `I will carry you over fire and water for your love, and I will hold you closer hope your heart is strong enough`,
-      `When the night is coming down on ya, we will find a way through the dark`,
+      `When the night is coming down on you, we will find a way through the dark`,
     ],
   },
   {

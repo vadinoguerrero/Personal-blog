@@ -5,6 +5,7 @@ import About from './pages/About';
 import Posts from './pages/Posts';
 import PostView from './components/PostView';
 import Songs from './pages/Songs';
+import Photos from './pages/Photos';
 import Projects from './pages/Projects';
 import NotFound from './pages/NotFound';
 
@@ -16,6 +17,7 @@ export default function App() {
       <Route path="/about" element={<About />} />
       <Route path="/posts" element={<Posts />} />
       <Route path="/posts/:id" element={<PostView />} />
+      <Route path="/photos" element={<Photos />} />
       <Route path="/songs" element={<Songs />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="*" element={<NotFound />} />
