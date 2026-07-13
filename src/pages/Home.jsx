@@ -11,7 +11,7 @@ export default function Home() {
     <div className="app-shell">
       <Header />
 
-      <div className="banner" style={{ margin: 0 }}>
+      <div className="banner">
         <h1>El rincón de Vadiño</h1>
         <p>
           Un lugar donde comparto textos, pensamientos y cosas que guardan

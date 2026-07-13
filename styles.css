@@ -55,7 +55,7 @@ a:visited {
 .button-group {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
   justify-content: center;
   max-width: 600px;
   width: 90%;
@@ -491,4 +491,16 @@ a:visited {
   object-fit: contain;
 
   cursor: zoom-out;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .button-group {
+    gap: 1.5rem;
+    padding-top: 1rem;
+  }
 }
