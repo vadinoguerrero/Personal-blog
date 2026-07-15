@@ -153,13 +153,6 @@ const photos = [
     date: '2024-12-01',
     description: '',
   },
-
-  {
-    id: '26',
-    src: '/photos/26.jpg',
-    date: '2024-12-01',
-    description: '',
-  },
 ];
 
 export default photos;
