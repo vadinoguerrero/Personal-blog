@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Header from '../components/Header';
 import photos from '../data/photos.js';
 import { motion, AnimatePresence, LayoutGroup } from 'framer-motion';
@@ -25,6 +25,10 @@ export default function Photos() {
     return () => window.removeEventListener('keydown', handleKey);
   }, []);
 
+  const shuffledPhotos = useMemo(() => {
+    return [...photos].sort(() => Math.random() - 0.5);
+  }, []);
+
   return (
     <>
       <Header />
@@ -34,7 +38,7 @@ export default function Photos() {
       </div>
       <LayoutGroup>
         <div className="photos-grid">
-          {photos.map((photo) => {
+          {shuffledPhotos.map((photo) => {
             return (
               <motion.img
                 key={photo.id}

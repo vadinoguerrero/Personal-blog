@@ -135,6 +135,31 @@ const photos = [
     date: '2024-12-01',
     description: '',
   },
+  {
+    id: '23',
+    src: '/photos/23.jpg',
+    date: '2024-12-01',
+    description: '',
+  },
+  {
+    id: '24',
+    src: '/photos/24.jpg',
+    date: '2024-12-01',
+    description: '',
+  },
+  {
+    id: '25',
+    src: '/photos/25.jpg',
+    date: '2024-12-01',
+    description: '',
+  },
+
+  {
+    id: '26',
+    src: '/photos/26.jpg',
+    date: '2024-12-01',
+    description: '',
+  },
 ];
 
 export default photos;
