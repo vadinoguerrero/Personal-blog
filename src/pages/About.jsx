@@ -16,6 +16,27 @@ export default function PostView() {
           <ReactMarkdown>{about}</ReactMarkdown>
         </div>
       </div>
+      <div
+        className="banner"
+        style={{ paddingBottom: '1rem', marginBottom: '1rem' }}
+      >
+        <h2 style={{ color: 'black' }}>
+          Hecho con ReactJS{' '}
+          <img
+            style={{ width: '20px', height: 'auto' }}
+            src="logos/react.webp"
+            alt="React Logo"
+          />
+        </h2>
+        <h2 style={{ color: 'black' }}>
+          Hosteado en Cloudfare Pages{' '}
+          <img
+            style={{ width: '20px', height: 'auto' }}
+            src="logos/cloudfare.png"
+            alt="Cloudflare Logo"
+          />
+        </h2>
+      </div>
     </>
   );
 }
