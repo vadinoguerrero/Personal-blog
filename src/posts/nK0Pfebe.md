@@ -3,7 +3,7 @@ id: nK0Pfebe
 date: '2018-07-15'
 ---
 
-Love as the biggest (probably unique) sign of virtue"
+Love as the biggest (probably unique) sign of virtue:
 
 El amor es la forma más grande de virtud, no es ni el ego ni el poder ni la fama.
 

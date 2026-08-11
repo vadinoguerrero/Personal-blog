@@ -20,22 +20,22 @@ export default function PostView() {
         className="banner"
         style={{ paddingBottom: '1rem', marginBottom: '1rem' }}
       >
-        <h2 style={{ color: 'black' }}>
+        <p style={{ color: 'black', fontWeight: 'bold' }}>
           Hecho con ReactJS{' '}
           <img
             style={{ width: '20px', height: 'auto' }}
             src="logos/react.webp"
             alt="React Logo"
           />
-        </h2>
-        <h2 style={{ color: 'black' }}>
+        </p>
+        <p style={{ color: 'black', fontWeight: 'bold' }}>
           Hosteado en Cloudfare Pages{' '}
           <img
             style={{ width: '20px', height: 'auto' }}
             src="logos/cloudfare.png"
             alt="Cloudflare Logo"
           />
-        </h2>
+        </p>
       </div>
     </>
   );
