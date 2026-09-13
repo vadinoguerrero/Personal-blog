@@ -16,13 +16,16 @@ export default function App() {
       <Route path="/" element={<Home />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
-      <Route path="/posts" element={<Posts />} />
-      <Route path="/posts/:id" element={<PostView />} />
-      <Route path="/photos" element={<Photos />} />
+      <Route path="/posts" element={<Posts type="normal" />} />
+      <Route path="/posts/:id" element={<PostView type="normal" />} />
+      <Route path="/photos" element={<Photos type="normal" />} />
       <Route path="/songs" element={<Songs />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="*" element={<NotFound />} />
       <Route path="/sifrina" element={<Sifrina />} />
+      <Route path="/sifrina/posts" element={<Posts type="sifrina" />} />
+      <Route path="/sifrina/posts/:id" element={<PostView type="sifrina" />} />
+      <Route path="/sifrina/photos" element={<Photos type="sifrina" />} />
     </Routes>
   );
 }

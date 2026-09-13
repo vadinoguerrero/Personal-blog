@@ -7,19 +7,20 @@ import Toast from '../components/Toast.jsx';
 import useToast from '../components/useToast.jsx';
 import NotFound from '../pages/NotFound.jsx';
 
-export default function PostView() {
+export default function PostView({ type }) {
   const { id } = useParams();
   const [post, setPost] = useState(null);
   const { toast, showToast } = useToast();
 
   useEffect(() => {
+    console.log(type, id);
     async function fetchPost() {
-      const loadedPost = await loadPosts(id);
+      const loadedPost = await loadPosts(type, id);
       setPost(loadedPost);
     }
 
     fetchPost();
-  }, [id]);
+  }, [id, type]);
 
   if (!post) {
     return <NotFound />;
@@ -53,7 +54,7 @@ export default function PostView() {
   }
 
   return (
-    <>
+    <div className={type === 'sifrina' ? 'sifrina-container' : ''}>
       <Header />
 
       <div className="postview-container">
@@ -72,6 +73,6 @@ export default function PostView() {
         </div>
       </div>
       {toast && <Toast message={toast} />}
-    </>
+    </div>
   );
 }

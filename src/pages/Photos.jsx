@@ -3,7 +3,8 @@ import Header from '../components/Header';
 import photos from '../data/photos.js';
 import { motion, AnimatePresence, LayoutGroup } from 'framer-motion';
 
-export default function Photos() {
+export default function Photos({ type }) {
+  console.log(type, photos[type]);
   const [selectedPhoto, setSelectedPhoto] = useState(null);
   useEffect(() => {
     if (selectedPhoto) {
@@ -26,11 +27,11 @@ export default function Photos() {
   }, []);
 
   const shuffledPhotos = useMemo(() => {
-    return [...photos].sort(() => Math.random() - 0.5);
+    return [...photos[type]].sort(() => Math.random() - 0.5);
   }, []);
 
   return (
-    <>
+    <div className={type === 'sifrina' ? 'sifrina-container' : ''}>
       <Header />
       <div className="banner">
         <h1>Galería</h1>
@@ -100,6 +101,6 @@ export default function Photos() {
           )}
         </AnimatePresence>
       </LayoutGroup>
-    </>
+    </div>
   );
 }

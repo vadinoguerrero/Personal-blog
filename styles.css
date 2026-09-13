@@ -23,6 +23,13 @@ body {
   min-height: 100vh;
 }
 
+.sifrina-container {
+  background: linear-gradient(to bottom, #d36983, #ac5165);
+  min-height: 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
 header {
   padding: 1rem;
   background-color: #1f2329;
