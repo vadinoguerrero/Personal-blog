@@ -246,12 +246,14 @@ a:visited {
   cursor: pointer;
 }
 
-.share {
+.share,
+.read-aloud {
   margin-top: 1rem;
   cursor: pointer;
   color: #fff;
   align-self: flex-end;
   float: right;
+  padding-left: 1rem;
 }
 
 .projects-container {

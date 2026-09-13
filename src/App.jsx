@@ -8,6 +8,7 @@ import Songs from './pages/Songs';
 import Photos from './pages/Photos';
 import Projects from './pages/Projects';
 import NotFound from './pages/NotFound';
+import Sifrina from './pages/Sifrina';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <Route path="/songs" element={<Songs />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="*" element={<NotFound />} />
+      <Route path="/sifrina" element={<Sifrina />} />
     </Routes>
   );
 }

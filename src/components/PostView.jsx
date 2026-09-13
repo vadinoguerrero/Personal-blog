@@ -42,6 +42,7 @@ export default function PostView() {
     }
   }
 
+  function playVoice() {}
   function formatDate(dateString) {
     return new Intl.DateTimeFormat('es-UY', {
       day: 'numeric',
@@ -61,6 +62,12 @@ export default function PostView() {
           <ReactMarkdown>{post.content}</ReactMarkdown>
           <span className="share material-symbols-outlined" onClick={sharePost}>
             share
+          </span>
+          <span
+            className="read-aloud material-symbols-outlined"
+            onClick={playVoice}
+          >
+            auto_read_play
           </span>
         </div>
       </div>
