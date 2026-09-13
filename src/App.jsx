@@ -9,6 +9,7 @@ import Photos from './pages/Photos';
 import Projects from './pages/Projects';
 import NotFound from './pages/NotFound';
 import Sifrina from './pages/Sifrina';
+import SifrinaLayout from './pages/SifrinaLayout';
 
 export default function App() {
   return (
@@ -22,10 +23,14 @@ export default function App() {
       <Route path="/songs" element={<Songs />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="*" element={<NotFound />} />
-      <Route path="/sifrina" element={<Sifrina />} />
-      <Route path="/sifrina/posts" element={<Posts type="sifrina" />} />
-      <Route path="/sifrina/posts/:id" element={<PostView type="sifrina" />} />
-      <Route path="/sifrina/photos" element={<Photos type="sifrina" />} />
+
+      <Route path="/sifrina" element={<SifrinaLayout />}>
+        <Route index element={<Sifrina />} />
+        <Route path="posts" element={<Posts type="sifrina" />} />
+        <Route path="posts/:id" element={<PostView type="sifrina" />} />
+        <Route path="photos" element={<Photos type="sifrina" />} />
+        <Route path="songs" element={<Songs type="sifrina" />} />
+      </Route>
     </Routes>
   );
 }
