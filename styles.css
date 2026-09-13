@@ -29,6 +29,7 @@ body {
   background-attachment: fixed;
   margin: 0;
   padding: 0;
+  display: flow-root;
 }
 header {
   padding: 1rem;
