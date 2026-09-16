@@ -198,6 +198,78 @@ const photos = {
       date: '2024-12-01',
       description: '',
     },
+    {
+      id: '8',
+      src: '/photos/sifrina/8.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '9',
+      src: '/photos/sifrina/9.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '10',
+      src: '/photos/sifrina/10.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '11',
+      src: '/photos/sifrina/11.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '12',
+      src: '/photos/sifrina/12.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '13',
+      src: '/photos/sifrina/13.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '14',
+      src: '/photos/sifrina/14.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '15',
+      src: '/photos/sifrina/15.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '16',
+      src: '/photos/sifrina/16.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '17',
+      src: '/photos/sifrina/17.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '18',
+      src: '/photos/sifrina/18.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '19',
+      src: '/photos/sifrina/19.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
   ],
 };
 
