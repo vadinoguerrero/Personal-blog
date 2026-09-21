@@ -4,7 +4,6 @@ import photos from '../data/photos.js';
 import { motion, AnimatePresence, LayoutGroup } from 'framer-motion';
 
 export default function Photos({ type }) {
-  console.log(type, photos[type]);
   const [selectedPhoto, setSelectedPhoto] = useState(null);
   useEffect(() => {
     if (selectedPhoto) {

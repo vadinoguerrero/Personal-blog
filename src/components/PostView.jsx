@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Header from '../components/Header';
 import ReactMarkdown from 'react-markdown';
 import loadPosts from '../lib/loadPosts.js';
@@ -8,12 +8,13 @@ import useToast from '../components/useToast.jsx';
 import NotFound from '../pages/NotFound.jsx';
 
 export default function PostView({ type }) {
+  const [playing, setPlaying] = useState(false);
+  const audioRef = useRef(null);
   const { id } = useParams();
   const [post, setPost] = useState(null);
   const { toast, showToast } = useToast();
 
   useEffect(() => {
-    console.log(type, id);
     async function fetchPost() {
       const loadedPost = await loadPosts(type, id);
       setPost(loadedPost);
@@ -21,6 +22,20 @@ export default function PostView({ type }) {
 
     fetchPost();
   }, [id, type]);
+
+  function toggleAudio() {
+    if (post.audio) {
+      if (playing) {
+        audioRef.current.pause();
+      } else {
+        audioRef.current.play();
+      }
+
+      setPlaying(!playing);
+    } else {
+      showToast('No hay audio disponible para este post.');
+    }
+  }
 
   if (!post) {
     return <NotFound />;
@@ -43,7 +58,6 @@ export default function PostView({ type }) {
     }
   }
 
-  function playVoice() {}
   function formatDate(dateString) {
     return new Intl.DateTimeFormat('es-UY', {
       day: 'numeric',
@@ -64,12 +78,19 @@ export default function PostView({ type }) {
           <span className="share material-symbols-outlined" onClick={sharePost}>
             share
           </span>
-          <span
-            className="read-aloud material-symbols-outlined"
-            onClick={playVoice}
-          >
-            auto_read_play
-          </span>
+          {post.audio && (
+            <span
+              className="read-aloud material-symbols-outlined"
+              onClick={toggleAudio}
+            >
+              {playing ? 'auto_read_pause' : 'auto_read_play'}
+            </span>
+          )}
+          <audio
+            ref={audioRef}
+            src={`/audio/${id}.mp3`}
+            onEnded={() => setPlaying(false)}
+          />
         </div>
       </div>
       {toast && <Toast message={toast} />}

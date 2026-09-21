@@ -1,7 +1,6 @@
 import fm from 'front-matter';
 
 export default async function loadPosts(type, id) {
-  console.log(type);
   let files;
   if (type === 'sifrina') {
     files = import.meta.glob('../posts/sifrina/*.md', {
@@ -24,6 +23,7 @@ export default async function loadPosts(type, id) {
       return {
         id: parsed.attributes.id,
         date: parsed.attributes.date,
+        audio: parsed.attributes.audio || null,
         content: parsed.body,
       };
     }),

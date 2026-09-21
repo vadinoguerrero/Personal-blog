@@ -247,13 +247,14 @@ a:visited {
 }
 
 .contact-form button {
-  align-self: flex-start;
-
   padding: 0.8rem 1.5rem;
 
   cursor: pointer;
 }
 
+.pass-container {
+  width: 30%;
+}
 .share,
 .read-aloud {
   margin-top: 1rem;
@@ -425,6 +426,10 @@ a:visited {
 
   border: none;
   border-radius: 12px;
+}
+
+.pass-form {
+  align-items: center;
 }
 
 @media (max-width: 650px) {

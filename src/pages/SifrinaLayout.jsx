@@ -47,7 +47,7 @@ export default function SifrinaLayout() {
           <p>Para acceder a esta sección, necesitás la contraseña que te dí.</p>
         </div>
         <div className="postview-container">
-          <div className="postview">
+          <div className="postview pass-container">
             <form className="contact-form" onSubmit={handleSubmit}>
               <input
                 type="password"
@@ -56,7 +56,7 @@ export default function SifrinaLayout() {
                 onChange={(e) => setPassword(e.target.value)}
               />
 
-              <button type="submit" disabled={loading}>
+              <button className="button-87" type="submit" disabled={loading}>
                 {loading ? 'Comprobando...' : 'Entrar'}
               </button>
             </form>

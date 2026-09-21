@@ -1,6 +1,7 @@
 ---
 id: bqPs5OvQ
 date: '2026-07-20'
+audio: true
 ---
 
 Every once in a while my life gets those “good times” where everything feels downhill, problems stop hurting and what was once hard now feels easy.
