@@ -251,10 +251,6 @@ a:visited {
 
   cursor: pointer;
 }
-
-.pass-container {
-  width: 30%;
-}
 .share,
 .read-aloud {
   margin-top: 1rem;
@@ -465,6 +461,11 @@ a:visited {
   }
 }
 
+@media (min-width: 700px) {
+  .pass-container {
+    width: 50%;
+  }
+}
 .photo-preview {
   width: 100%;
 
