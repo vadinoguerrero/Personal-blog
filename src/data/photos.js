@@ -270,6 +270,60 @@ const photos = {
       date: '2024-12-01',
       description: '',
     },
+    {
+      id: '20',
+      src: '/photos/sifrina/20.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '21',
+      src: '/photos/sifrina/21.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '22',
+      src: '/photos/sifrina/22.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '23',
+      src: '/photos/sifrina/23.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '24',
+      src: '/photos/sifrina/24.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '25',
+      src: '/photos/sifrina/25.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '26',
+      src: '/photos/sifrina/26.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '27',
+      src: '/photos/sifrina/27.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '28',
+      src: '/photos/sifrina/28.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
   ],
 };
 
