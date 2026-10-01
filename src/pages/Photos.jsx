@@ -32,10 +32,17 @@ export default function Photos({ type }) {
   return (
     <div className={type === 'sifrina' ? 'sifrina-container' : ''}>
       <Header />
-      <div className="banner">
-        <h1>Galería</h1>
-        <p>Fotos que atesoro</p>
-      </div>
+      {type === 'normal' ? (
+        <div className="banner">
+          <h1>Galería</h1>
+          <p>Fotos que atesoro</p>
+        </div>
+      ) : (
+        <div className="banner">
+          <h1>Nuestras fotos</h1>
+          <p>Algunas de los momentos tan lindos que tenemos juntos</p>
+        </div>
+      )}
       <LayoutGroup>
         <div className="photos-grid">
           {shuffledPhotos.map((photo) => {

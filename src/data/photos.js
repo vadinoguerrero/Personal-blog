@@ -253,12 +253,6 @@ const photos = {
       description: '',
     },
     {
-      id: '17',
-      src: '/photos/sifrina/17.jpg',
-      date: '2024-12-01',
-      description: '',
-    },
-    {
       id: '18',
       src: '/photos/sifrina/18.jpg',
       date: '2024-12-01',
