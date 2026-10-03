@@ -1,6 +1,6 @@
 ---
 id: KOICUyxP
-date: '2026-07-12'
+date: '2027-01-01'
 ---
 
 -A veces ella dice algo que quiere decir pero bien bajito, y cuando le pregunto qué dijo se hace la que no dijo nada.
@@ -48,3 +48,7 @@ https://youtube.com/watch?v=ElJPIAw9T6Q
 -Me encanta que sea tan positiva, tan amorosa, que venga de un pueblo, y que sea religiosa, siento que toda mi vida estuve conociendo gente mierda y tenia que venir ella desde Venezuela a mostrarme que las personas pueden ser así
 
 -Me dijo que es una persona muy frágil, y no hay nada que yo mas quiera que conocer y entender esa parte que ella esconde
+
+-Su flor favorita son los girasoles
+
+-No le gustan los alfajores de maicena, le gustan mas los yoyo
