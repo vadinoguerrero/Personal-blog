@@ -20,9 +20,9 @@ export default function Home() {
       </div>
 
       <div className="button-group">
-        {/* <button onClick={generateId} className="button-87">
+        <button onClick={generateId} className="button-87">
           Generar ID
-        </button> */}
+        </button>
         <Link className="button-87" to="/about">
           Que es esta página?
         </Link>
