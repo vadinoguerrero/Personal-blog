@@ -29,7 +29,7 @@ export default function PostView() {
           />
         </p>
         <p style={{ color: 'black', fontWeight: 'bold' }}>
-          Hosteado en Cloudfare Pages{' '}
+          Hosteado en Cloudflare Pages{' '}
           <img
             style={{ width: '20px', height: 'auto' }}
             src="logos/cloudfare.png"
