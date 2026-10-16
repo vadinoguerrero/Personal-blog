@@ -3,22 +3,24 @@ id: 5XYO3nb4
 date: '2026-10-15'
 ---
 
-Sifrina
+Mi sifrina
 
-Lo que pasó es que me volví loco totalmente por vos, me hiciste sentir algo increíble, me hiciste creer en un amor en el que hacía tiempo no creía, y llegué a decirte que quiero tener hijos contigo, que quiero un futuro contigo, me imaginé visitando Venezuela contigo.
+Reconozco que la cagué, todos los problemas empezaron porque me volví loco por vos, me hiciste sentir un amor increíble, me hiciste querer tener hijos contigo, un futuro contigo y hasta me imaginé visitando Venezuela contigo.
 
-Fue increíble, y no me arrepiento, y sé que vos, aunque estes lastimada igual que yo, tampoco te arrepientes.
+Nuestro amor es lo mas lindo del mundo, y no me arrepiento, y sé que vos aunque estes lastimada tampoco te arrepientes.
 
-Pero lamentablemente como consecuencia empecé a basar toda mi felicidad en vos, me empezó a afectar mucho todo lo que vos hicieras o digas, te empecé a poner mi estado emocional y mental como una responsabilidad, te empecé a atomizar, a hacerte sentir culpable de cosas. Fue la fragilidad de que otra persona tenga todos mis sentimientos en su mano
+Cuando terminamos me di cuenta de que al enamorarme empecé a basar toda mi felicidad en vos, me empezó a afectar mucho todo lo que vos hicieras o digas, te empecé a poner mis emociones como una responsabilidad, te empecé a atomizar, a hacerte sentir culpable de cosas. Fue el vértigo, la fragilidad de que otra persona tenga todos mis sentimientos en su mano y por eso me comporté como un tarado tantas veces.
 
-Ahora lo veo con más claridad y ojalá no hubiera sido así, ojalá nos hubieramos simplemente amado tranquilamente sin que aparezcan complicaciones.
+Ojalá no hubiera sido así, ojalá nos hubieramos simplemente amado tranquilamente sin que aparezcan complicaciones.
 
-Hoy en dia veo como estás, y te re contra entiendo, creo que me volví muy bueno en leerte y entenderte, y quiero que entiendas, que yo no soy un patán, soy una persona también lastimada, a la que toda la ilusión también se le cayó al piso y se le rompió en pedazos, y todo mi comportamiento oscila entre hacer cosas para estar mejor yo y sanar, y hacer cosas para achicar la distancia entre nosotros.
+Te pido por favor que dejes de pensarme como un patán, porque aunque me comporté como uno en realidad sabes que no lo soy. Y que entiendas que estoy sufriendo muchísimo por la idea de perderte, estoy sufriendo muchísimo por la distancia entre nosotros, y que una parte de mi quiere sanar, distraerse de vos y estar mejor, pero otra quiere estar contigo mas que nada en el mundo.
 
-Los dos estamos iguales, en la pelea corazón contra mente, y si algo caracterizó lo nuestro desde el principio es que el corazón siempre fue predominante. Si nos amamos así por qué no nos dejamos de problemas y nos abrazamos bien fuerte?
+Creo que me volví muy bueno en leerte y entenderte, por eso veo como estás y las cosas que haces, y te re contra entiendo, porque los dos estamos en la pelea corazón contra mente, y si algo caracterizó lo nuestro desde el principio es que el corazón siempre ganó.
 
-No te quiero dejar ir nunca, aunque me parta en pedazos, porque sos la persona mas preciosa que conocí, porque las cosas entre nosotros pueden ser tan geniales, que la vida me dio esto tan lindo, y no lo quiero dejar ir.
+Y si nos amamos así por qué no dejamos los problemas atras y nos abrazamos bien fuerte mi amor?
 
-Yo te amo de verdad, y te quiero dar hasta la última pizca de amor que hay en mi corazón.
+No te quiero dejar ir nunca, aunque pueda salir lastimado, porque sos la persona mas preciosa que conocí, porque las cosas entre nosotros pueden ser tan geniales, que la vida nos dio esto tan lindo, y no lo quiero dejar ir.
 
-Y perdón de verdad, perdón de corazón por lastimarte, perdón por haber sido un imbécil.
+Perdón de verdad, perdón de corazón por lastimarte, perdón por haber sido un imbécil.
+
+Yo te amo de verdad, y te quiero dar hasta la última pizca de amor que hay en mi corazón. Quiero vivir muchísimas más cosas juntos.
