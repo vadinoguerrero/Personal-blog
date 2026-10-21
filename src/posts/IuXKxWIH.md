@@ -15,8 +15,8 @@ Nota del 13 de agosto de 2018:
 
 Este tema jugó un papel importante en mi depresión del 18, es básicamente el duelo o pérdida de un meaning central o muy intenso, que se esfuma y lo deja a uno preguntándose, ¿por qué? ¿en qué momento? como si para el alma no hubiera manera de entender.
 
-Hoy en día, enfrentado a la dessignificancia una vez más, pienso que envés de resistirme y repudiarla la abrazo y la acepto, aunque cueste, porque la muerte también es parte de la vida, porque es esa la manera de seguir adelante y darle lugar a más vida.
+Hoy en día envés de resistirme y repudiarla intento abrazarla y aceptarla, aunque cueste, porque la muerte también es parte de la vida, porque es esa la manera de seguir adelante y darle lugar a más vida.
 
-Pienso que lo que una vez significó lo va a significar siempre por más que no exista en el momento presente, se vuelve parte de uno, y es una cosa más que se atesora para algún día llevar al siguiente plano.
+Creo que lo que una vez significó lo va a significar siempre por más que no exista en el momento presente, se vuelve parte de uno, y es una cosa más que se atesora para algún día llevar al siguiente plano.
 
-Aunque duele, vale la pena haberlo vivido, y es mejor vivirlo y verlo morir a no vivirlo.
+Aunque duele, vale la pena haberlo vivido, y es mejor vivir algo y verlo morir a no vivirlo.
