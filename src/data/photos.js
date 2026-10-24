@@ -318,6 +318,32 @@ const photos = {
       date: '2024-12-01',
       description: '',
     },
+    {
+      id: '29',
+      src: '/photos/sifrina/29.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '30',
+      src: '/photos/sifrina/30.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '31',
+      src: '/photos/sifrina/31.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '32',
+      type: 'video',
+      src: '/photos/sifrina/32.mp4',
+      thumbnail: '/photos/sifrina/32.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
   ],
 };
 

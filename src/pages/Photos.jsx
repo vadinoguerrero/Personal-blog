@@ -47,24 +47,29 @@ export default function Photos({ type }) {
         <div className="photos-grid">
           {shuffledPhotos.map((photo) => {
             return (
-              <motion.img
+              <motion.div
                 key={photo.id}
                 layoutId={`photo-${photo.id}`}
-                src={photo.src}
                 className="photo-preview"
-                loading="lazy"
-                transition={{
-                  layout: {
-                    duration: 0.1,
-                    ease: 'easeInOut',
-                  },
-                }}
                 onClick={() => setSelectedPhoto(photo)}
                 style={{
                   visibility:
                     selectedPhoto?.id === photo.id ? 'hidden' : 'visible',
+                  overflow: 'hidden',
+                  position: 'relative',
                 }}
-              />
+              >
+                <img
+                  src={photo.type === 'video' ? photo.thumbnail : photo.src}
+                  className="photo-preview"
+                  loading="lazy"
+                  alt={photo.description}
+                />
+
+                {photo.type === 'video' && (
+                  <span className="video-play-icon">▶</span>
+                )}
+              </motion.div>
             );
           })}
         </div>
@@ -91,18 +96,32 @@ export default function Photos({ type }) {
               }}
               onClick={() => setSelectedPhoto(null)}
             >
-              <motion.img
-                layout
-                layoutId={`photo-${selectedPhoto.id}`}
-                transition={{
-                  layout: {
-                    duration: 0.25,
-                  },
-                }}
-                src={selectedPhoto.src}
-                className="fullscreen-photo"
-                onClick={(e) => e.stopPropagation()}
-              />
+              {selectedPhoto.type === 'video' ? (
+                <motion.video
+                  layout
+                  layoutId={`photo-${selectedPhoto.id}`}
+                  src={selectedPhoto.src}
+                  poster={selectedPhoto.thumbnail}
+                  className="fullscreen-photo"
+                  controls
+                  playsInline
+                  autoPlay
+                  onClick={(e) => e.stopPropagation()}
+                />
+              ) : (
+                <motion.img
+                  layout
+                  layoutId={`photo-${selectedPhoto.id}`}
+                  transition={{
+                    layout: {
+                      duration: 0.25,
+                    },
+                  }}
+                  src={selectedPhoto.src}
+                  className="fullscreen-photo"
+                  onClick={(e) => e.stopPropagation()}
+                />
+              )}
             </motion.div>
           )}
         </AnimatePresence>

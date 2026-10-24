@@ -517,6 +517,17 @@ a:visited {
   cursor: zoom-out;
 }
 
+.video-play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 2px 8px black;
+  pointer-events: none;
+}
+
 @media (max-width: 768px) {
   .banner {
     padding-bottom: 1rem;

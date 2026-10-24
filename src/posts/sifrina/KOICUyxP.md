@@ -52,3 +52,7 @@ https://youtube.com/watch?v=ElJPIAw9T6Q
 -Su flor favorita son los girasoles
 
 -No le gustan los alfajores de maicena, le gustan mas los yoyo
+
+-Le gustan mucho los helados de Haagen-Dazs
+
+-No le gusta el aromatizador de coco, le gusta el de naranjo y orquídeas y el de frutos rojos.
