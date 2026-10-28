@@ -3,15 +3,13 @@ id: 0EzF_BdE
 date: '2026-10-27'
 ---
 
-Tus ojos
+Aunque a veces seas toda orgullosa, te hagas la superada, y quieras siempre tener todo bajo control, tus ojos preciosos dejan ver mucho mas de vos.
 
-Aunque seas toda orgullosa, te hagas la superada, y quieras siempre tener todo bajo control, hay una parte de vos en la que el que mira con atención puede ver mucho más, tus ojitos.
+Cuando algo te emociona, o algo de verdad te causa gracia, se ponen un poco saltones, y expresan emoción pura.
+Los vi en mi casa un dia que te estabas riendo de algo que dije y recien habias salido de bañarte. Tambien los vi una vez en el market cuando empezó a sonar la canción que dice "esta noche yo serrucho".
 
-Los ojos haciéndote la linda, cuando dejas entrecerrados los párpados.
+Mis favoritos son los ojos de amor, los ojos se te hacen chiquitos, y cuando estas maquillada se hacen más chicos todavía. En realidad no los puedo explicar ni describir mucho porque cuando nos estamos mirando así se me apagan todos los pensamientos y me siento como que estoy mirando lo mas lindo que hay.
 
-Cuando algo te emociona, o algo medianamente rebuscado te causa gracia, se ponen un poco saltones, y expresan emoción pura.
-Los vi en mi casa un dia que te estabas riendo de algo que dije y recien habias salido de bañarte. Tambien los vi una vez en el market cuando empezó a sonar una canción que dice "esta noche yo serrucho" jajaja.
+Atrás de Angélica fuerte, inteligente, que puede con todo, veo tus ojos y veo a Angélica amorosa y sensible que siempre va a tener un lugar en mi. Siempre vas a poder acostarte arriba mio, hablarme de todo y que se te caiga una lágrima.
 
-Los ojos de amor, mis favoritos, no los puedo explicar porque solo los siento en el corazón. Y cuando estas maquillada se hacen más chiquitos todavía. Quisiera que me mires toda la vida así.
-
-No importa la imagen que des para afuera, veo tus ojos y veo a Angélica amorosa, la Angélica sensible que escucha Fade Into You y Stay de Rihanna, la Angélica que amo, que el destino hizo para mí.
+Angélica sensible conociendo a Vadiño sensible era el destino. Y tengo la certeza de que cuando algo es así de importante esa conexión va a ser más fuerte que todo.
