@@ -15,4 +15,4 @@ También puedo culpar al entorno, y haberme contagiado de creer que muchas cosas
 
 Pero siento más certero pensar que la razón que lo explica es que me lastimaron bastante a lo largo del 2024, y no volví a ser la misma persona desde entonces, me volví más oscuro, me dejó de importar ese código social, perdí fé en la gente, me dejó de importar tanto hacer cosas que pueden lastimar a alguien más.
 
-Mi principal objetivo ahora va a ser sanar, perdonar, dejar atrás todo lo malo, empezar a ver a la gente y las cosas con ojos positivos, y centrarme en ser el mismo Vadiño bueno del 23, o todavía mejor.
+A partir de ahora voy a poner mi esfuerzo en ser una mejor persona, en sanar, dejar atrás todo lo malo, empezar a ver a la gente y las cosas con ojos positivos, centrarme en no lastimar a nadie (mucho menos a la gente que quiero), y ser bueno como Vadiño del 23.
