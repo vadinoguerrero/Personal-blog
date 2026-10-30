@@ -348,19 +348,19 @@ const photos = {
   nsfw: [
     {
       id: '1',
-      src: 'https://media.redgifs.com/ConventionalSelfishXantus-large.jpg',
+      src: 'https://imglink.cc/cdn/70sHwohiRT.jpg',
     },
     {
       id: '2',
-      src: 'https://media.redgifs.com/MerryVioletAidi-large.jpg',
+      src: 'https://imglink.cc/cdn/czOKTrgzqU.jpg',
     },
     {
       id: '3',
-      src: 'https://media.redgifs.com/WoodenUnawareLice-large.jpg',
+      src: 'https://imglink.cc/cdn/5p3BdSRQlE.jpg',
     },
     {
       id: '4',
-      src: 'https://media.redgifs.com/HardSourPikeperch-large.jpg',
+      src: 'https://imglink.cc/cdn/rakZGtIdhr.jpeg',
     },
   ],
 };

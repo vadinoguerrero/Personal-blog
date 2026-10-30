@@ -42,15 +42,17 @@ export default function SifrinaLayout({ type = 'sifrina' }) {
     return (
       <div>
         <Header />
-        <h1>
-          {type === 'nsfw' ? 'Contenido privado 🔞' : 'Ingresa la contraseña'}
-        </h1>
+        <div className="banner">
+          <h1>
+            {type === 'nsfw' ? 'Contenido privado 🔞' : 'Ingresa la contraseña'}
+          </h1>
 
-        <p>
-          {type === 'nsfw'
-            ? 'Para obtener la contraseña te la vas a tener que ganar, imaginate la mejor manera'
-            : 'Para acceder a esta sección, necesitás la contraseña que te dí.'}
-        </p>
+          <p>
+            {type === 'nsfw'
+              ? 'Para obtener la contraseña te la vas a tener que ganar, pensa cómo.'
+              : 'Para acceder a esta sección, necesitás la contraseña que te dí.'}
+          </p>
+        </div>
         <div className="postview-container">
           <div className="postview pass-container">
             <form className="contact-form" onSubmit={handleSubmit}>
