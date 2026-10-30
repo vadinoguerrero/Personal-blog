@@ -29,7 +29,9 @@ export default function App() {
         <Route path="posts" element={<Posts type="sifrina" />} />
         <Route path="posts/:id" element={<PostView type="sifrina" />} />
         <Route path="photos" element={<Photos type="sifrina" />} />
-        <Route path="nsfw" element={<Photos type="nsfw" />} />
+        <Route path="nsfw" element={<SifrinaLayout type="nsfw" />}>
+          <Route index element={<Photos type="nsfw" />} />
+        </Route>
       </Route>
     </Routes>
   );

@@ -4,7 +4,7 @@ import Toast from '../components/Toast.jsx';
 import useToast from '../components/useToast.jsx';
 import Header from '../components/Header';
 
-export default function SifrinaLayout() {
+export default function SifrinaLayout({ type = 'sifrina' }) {
   const [password, setPassword] = useState('');
   const [authenticated, setAuthenticated] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -21,7 +21,7 @@ export default function SifrinaLayout() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ password }),
+        body: JSON.stringify({ password, type }),
       });
 
       if (!response.ok) {
@@ -42,10 +42,15 @@ export default function SifrinaLayout() {
     return (
       <div>
         <Header />
-        <div className="banner">
-          <h1>Ingresa la contraseña</h1>
-          <p>Para acceder a esta sección, necesitás la contraseña que te dí.</p>
-        </div>
+        <h1>
+          {type === 'nsfw' ? 'Contenido privado 🔞' : 'Ingresa la contraseña'}
+        </h1>
+
+        <p>
+          {type === 'nsfw'
+            ? 'Para obtener la contraseña te la vas a tener que ganar, imaginate la mejor manera'
+            : 'Para acceder a esta sección, necesitás la contraseña que te dí.'}
+        </p>
         <div className="postview-container">
           <div className="postview pass-container">
             <form className="contact-form" onSubmit={handleSubmit}>
