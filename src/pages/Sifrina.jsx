@@ -17,7 +17,10 @@ export default function Sifrina() {
           Textos que te he escrito
         </Link>
         <Link className="button-87" to="/sifrina/photos">
-          Fotos
+          Nuestras fotos
+        </Link>
+        <Link className="button-87" to="/sifrina/nsfw">
+          🚫
         </Link>
       </div>
     </div>

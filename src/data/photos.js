@@ -345,6 +345,24 @@ const photos = {
       description: '',
     },
   ],
+  nsfw: [
+    {
+      id: '1',
+      src: 'https://media.redgifs.com/ConventionalSelfishXantus-large.jpg',
+    },
+    {
+      id: '2',
+      src: 'https://media.redgifs.com/MerryVioletAidi-large.jpg',
+    },
+    {
+      id: '3',
+      src: 'https://media.redgifs.com/WoodenUnawareLice-large.jpg',
+    },
+    {
+      id: '4',
+      src: 'https://media.redgifs.com/HardSourPikeperch-large.jpg',
+    },
+  ],
 };
 
 export default photos;

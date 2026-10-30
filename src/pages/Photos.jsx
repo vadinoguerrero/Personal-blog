@@ -30,12 +30,17 @@ export default function Photos({ type }) {
   }, []);
 
   return (
-    <div className={type === 'sifrina' ? 'sifrina-container' : ''}>
+    <div className={type !== 'normal' ? 'sifrina-container' : ''}>
       <Header />
       {type === 'normal' ? (
         <div className="banner">
           <h1>Galería</h1>
           <p>Fotos que atesoro</p>
+        </div>
+      ) : type === 'nsfw' ? (
+        <div className="banner">
+          <h1>Rincón privado 🔞</h1>
+          <p>Para que cuando me extrañes veas y te toques mamita</p>
         </div>
       ) : (
         <div className="banner">

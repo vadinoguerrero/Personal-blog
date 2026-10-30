@@ -1,6 +1,6 @@
 ---
 id: KOICUyxP
-date: '2027-01-01'
+date: '2027-11-27'
 ---
 
 -A veces ella dice algo que quiere decir pero bien bajito, y cuando le pregunto qué dijo se hace la que no dijo nada.
@@ -56,3 +56,5 @@ https://youtube.com/watch?v=ElJPIAw9T6Q
 -Le gustan mucho los helados de Haagen-Dazs
 
 -No le gusta el aromatizador de coco, le gusta el de naranjo y orquídeas y el de frutos rojos.
+
+-Lloró el dia que le mostre la página oculta para ella, es tan adorable que me gustaría sorprenderla así siempre.
