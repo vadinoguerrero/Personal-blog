@@ -344,6 +344,30 @@ const photos = {
       date: '2024-12-01',
       description: '',
     },
+    {
+      id: '33',
+      type: 'video',
+      src: '/photos/sifrina/33.mp4',
+      thumbnail: '/photos/sifrina/33.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '34',
+      type: 'video',
+      src: '/photos/sifrina/34.mp4',
+      thumbnail: '/photos/sifrina/34.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '35',
+      type: 'video',
+      src: '/photos/sifrina/35.mp4',
+      thumbnail: '/photos/sifrina/35.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
   ],
   nsfw: [
     {
