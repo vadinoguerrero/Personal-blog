@@ -49,7 +49,7 @@ export default function SifrinaLayout({ type = 'sifrina' }) {
 
           <p>
             {type === 'nsfw'
-              ? 'Para obtener la contraseña te la vas a tener que ganar, pensa cómo.'
+              ? 'Para cuando estes sola y me extrañes. \n(Pista: la contraseña es algo que te gusta mucho hacer)'
               : 'Para acceder a esta sección, necesitás la contraseña que te dí.'}
           </p>
         </div>
