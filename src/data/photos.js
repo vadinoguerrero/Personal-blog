@@ -368,6 +368,14 @@ const photos = {
       date: '2024-12-01',
       description: '',
     },
+    {
+      id: '36',
+      type: 'video',
+      src: '/photos/sifrina/36.mp4',
+      thumbnail: '/photos/sifrina/36.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
   ],
   nsfw: [
     {
