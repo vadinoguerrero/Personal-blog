@@ -154,6 +154,30 @@ const photos = {
       date: '2024-12-01',
       description: '',
     },
+    {
+      id: '26',
+      src: '/photos/26.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '27',
+      src: '/photos/27.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '28',
+      src: '/photos/28.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '29',
+      src: '/photos/29.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
   ],
   sifrina: [
     {
