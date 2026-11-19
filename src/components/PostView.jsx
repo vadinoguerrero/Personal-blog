@@ -74,7 +74,25 @@ export default function PostView({ type }) {
       <div className="postview-container">
         <div className="postview">
           <h3>{formatDate(post.date)}</h3>
-          <ReactMarkdown>{post.content}</ReactMarkdown>
+          <ReactMarkdown
+            components={{
+              img: ({ src, alt }) => (
+                <img
+                  src={src}
+                  alt={alt}
+                  style={{
+                    maxWidth: '100%',
+                    width: '400px',
+                    height: 'auto',
+                    align: 'center',
+                    padding: '2rem',
+                  }}
+                />
+              ),
+            }}
+          >
+            {post.content}
+          </ReactMarkdown>
           <span className="share material-symbols-outlined" onClick={sharePost}>
             share
           </span>
