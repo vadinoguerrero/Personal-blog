@@ -71,12 +71,6 @@ const photos = {
       description: '',
     },
     {
-      id: '12',
-      src: '/photos/12.jpg',
-      date: '2019-08-25',
-      description: '',
-    },
-    {
       id: '13',
       src: '/photos/13.jpg',
       date: '2021-03-30',
@@ -110,12 +104,6 @@ const photos = {
       id: '18',
       src: '/photos/18.jpg',
       date: '2012-01-15',
-      description: '',
-    },
-    {
-      id: '19',
-      src: '/photos/19.jpeg',
-      date: '2023-04-09',
       description: '',
     },
     {
@@ -175,6 +163,18 @@ const photos = {
     {
       id: '29',
       src: '/photos/29.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '30',
+      src: '/photos/30.jpg',
+      date: '2024-12-01',
+      description: '',
+    },
+    {
+      id: '31',
+      src: '/photos/31.jpg',
       date: '2024-12-01',
       description: '',
     },
